@@ -1,2 +1,20 @@
 
 /* Your CSS Code here. */
+/* Grid Container */
+.holder {
+    display: grid;
+    width: 200px;
+    height: 200px;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px; /* Optional: Adds spacing between grid items */
+}
+
+/* Grid Items */
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ddd;
+    border: 1px solid #ccc;
+}
